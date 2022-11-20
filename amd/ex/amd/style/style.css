@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	height: auto;
+	width: auto;
+	background: var(--main--);
+}
+
+:root {
+  	--main--: #00B3D0;
+	--body--: #ffffff;
+	--box--: #f4f4f4;
+	
+	--green--: #00FF1D;
+	--red--: #FF0004;
+	--yellow--: #FFBE00;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: stretch;
+	align-items: stretch;
+	justify-content: space-between;
+	height: auto;
+	width: 100%;
+}
+.group-nav {
+	height: auto;
+	width: auto;
+}
+.item-nav {
+	padding: 10px;
+}
+.logo {
+	height: 60px;
+	width: auto;
+	margin: auto;
+	padding: auto;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: stretch;
+	align-items: stretch;
+	justify-content: space-between;
+	height: auto;
+	min-height: 100vh;
+	width: auto;
+	background: var(--box--);
+}
+.group-item {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: stretch;
+	justify-content: center;
+	height: auto;
+	width: 100%;
+	padding: 20px;
+	border-radius: 20px;
+	
+}
+.item-menu {
+	height: auto;
+	width: 100%;
+	margin: 20px 0px;
+	padding: 30px;
+	background: var(--main--);
+	border-radius: 20px;
+	border: none;
+	font-size: 20px;
+}
+.item-pr {
+	height: auto;
+	width: 100%;
+	margin: 20px 0px;
+	padding: 30px;
+	background: var(--yellow--);
+	border-radius: 20px;
+	border: none;
+	font-size: 20px;
+}
+
+form {
+	height: auto;
+	width: 100%;
+	padding: 20px;
+	border-radius: 20px;
+}
+input {
+	height: auto;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	padding: 20px 0px 20px 20px;
+	border: none;
+	border-radius: 20px;
+}
+select {
+	height: auto;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	padding: 20px 0px 20px 20px;
+	border: none;
+	border-radius: 20px;
+}
+.pirmary-btn {
+	height: auto;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	padding: 20px 0px 20px 20px;
+	border: none;
+	border-radius: 20px;
+	background: var(--main--);
+	color: white;
+}
+.secondary-btn {
+	height: auto;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	padding: 20px 0px 20px 20px;
+	border: none;
+	border-radius: 20px;
+	background: var(--main--);
+}
+.sub-btn {
+	height: auto;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	padding: 20px 0px 20px 20px;
+	border-radius: 20px;
+	border: 1px solid var(main);
+	text-decoration: underline;
+}
